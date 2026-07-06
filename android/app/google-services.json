@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471701100406",
+    "project_id": "bijli-update-5d8bd",
+    "storage_bucket": "bijli-update-5d8bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471701100406:android:efba347ee4c15e39ea4c57",
+        "android_client_info": {
+          "package_name": "com.bijliupdate.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ZlQNKgT1EdJXfApYK3EJpDs4aBB3fqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471701100406:android:6c5902658e84e754ea4c57",
+        "android_client_info": {
+          "package_name": "com.example.bijli_update"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ZlQNKgT1EdJXfApYK3EJpDs4aBB3fqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
