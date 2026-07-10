@@ -29,3 +29,4 @@ class BijliUpdateApp extends StatelessWidget {
     );
   }
 
+}
