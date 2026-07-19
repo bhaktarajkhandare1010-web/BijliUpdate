@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dashboard_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -53,6 +54,13 @@ class _LoginScreenState extends State<LoginScreen> {
         );
 
     await auth.signInWithCredential(credential);
+
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const DashboardScreen(),
+      ),
+    );
 
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
